@@ -1,21 +1,22 @@
+*{text-transform: uppercase;}
 /* Header start */
 header{
     background-image: url('main_img.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 96.8%;
     color: white;
 }
 .icon_logo{
     background-color: #58565691;
-    margin-bottom: 17%;
+    margin-bottom: 20%;
 }
 .icon_logo hr{
     background-color: #3bbddc;
     width: 4%;
     padding: 0.7%;
-    margin-left: 10%;
+    margin-left: 10.5%;
 }
-.icon_logo h2{
+.icon_logo h3{
     font-weight: bold;
     margin-left: 10%;
     font-size: 300%;
@@ -24,7 +25,7 @@ header{
 span{
     font-weight: bold;
 }
-.icon_logo h4{
+.icon_logo h5{
     text-transform: uppercase;
     margin-left: 9%;
     margin-top: -3%;
@@ -37,6 +38,8 @@ span{
     list-style: square;
     font-weight: bold;
     text-align: right;
+    direction: rtl;
+    margin-right: 5%;
 }
 /* second header css */
 .txt_learn{
@@ -67,29 +70,62 @@ span{
 .txt_first p{color: #707070;}
 .company_logo{
     background-color: #3bbddc;
-    padding: 8%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     color: white;
+}
+.company_logo img{
+    transform: rotate(-30deg);
 }
 .company_logo h4{
     font-weight: bold;
-    margin-left: -20%;
     padding-top: 10%;
+    text-align: left;
 }
 .company_logo p{
-    margin-left: -20%;
-    margin-top: -10%;
+    font-size: xx-small;
+    margin-top: -5%;
+    text-align: left;
 }
 /* our_comapny css */
 .our_comapny{
     background-color: #f8faf9;
+    padding: 5%;
 }
 .our_comapny h5{
     color: #dd5362;
     font-weight: bold;
 }
-.our_comapny h3,.our_comapny h6,.our_comapny span{
+.our_comapny h3,.our_comapny h6,.our_comapny span,.txt_second h5{
     color: #4d4d4d;
+    font-weight: bold;
 }
 .our_comapny p{
     color: #b6b7b7;
+}
+.txt_second{
+    background-color: white;
+    text-align: right;
+    padding: 5%;
+}
+.txt_second h4{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-right: 15%;
+}
+.txt_second img{
+    width: 40%;
+}
+.txt_second h2{
+    margin-right: 20%;
+    font-weight: bold;
+    color: #3bbddc;
+}
+.txt_second p{
+    color: #b6b7b7;
+}
+.footer_line{
+    width: 57.5%;
+    height: 10px;
+    background-color: #dd5362;
 }
