@@ -51,3 +51,45 @@ span{
     background-color: #45464ab6;
 }
 /* Section css start*/
+/* Upper section*/
+.txt_first{
+    padding:3% 3% 3% 10%;
+    background-color: white;
+}
+.txt_first h2{
+    font-weight: bold;
+    color: #dd5362;
+}
+.txt_first h5{
+    font-weight: bold;
+    color: #707070;
+}
+.txt_first p{color: #707070;}
+.company_logo{
+    background-color: #3bbddc;
+    padding: 8%;
+    color: white;
+}
+.company_logo h4{
+    font-weight: bold;
+    margin-left: -20%;
+    padding-top: 10%;
+}
+.company_logo p{
+    margin-left: -20%;
+    margin-top: -10%;
+}
+/* our_comapny css */
+.our_comapny{
+    background-color: #f8faf9;
+}
+.our_comapny h5{
+    color: #dd5362;
+    font-weight: bold;
+}
+.our_comapny h3,.our_comapny h6,.our_comapny span{
+    color: #4d4d4d;
+}
+.our_comapny p{
+    color: #b6b7b7;
+}
