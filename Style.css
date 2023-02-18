@@ -1,20 +1,27 @@
-*{text-transform: uppercase;}
-/* Header start */
-header{
-    background-image: url('main_img.jpg');
-    background-repeat: no-repeat;
-    background-size: 96.8%;
-    color: white;
+*{text-transform: uppercase;
 }
+/* Header start */
+header img{
+    width: 101%;
+    height: 650px;
+    position: absolute;
+}
+header{ 
+    color: white;
+} 
 .icon_logo{
     background-color: #58565691;
-    margin-bottom: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 12%;
 }
 .icon_logo hr{
     background-color: #3bbddc;
-    width: 4%;
-    padding: 0.7%;
-    margin-left: 10.5%;
+    width: 2.5%;
+    padding: 0.5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 .icon_logo h3{
     font-weight: bold;
@@ -28,32 +35,46 @@ span{
 .icon_logo h5{
     text-transform: uppercase;
     margin-left: 9%;
-    margin-top: -3%;
 }
 /* list css */
 .lang_nm{
     background-color:#adaaadaf;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-bottom: 3%;
+}
+.lang_nm ul{
+    padding-right: 15%;
+    padding-top: 10%;
+    font-weight: bold;
 }
 .lang_nm ul li{
     list-style: square;
     font-weight: bold;
     text-align: right;
     direction: rtl;
-    margin-right: 5%;
+    padding: 3%;
 }
 /* second header css */
 .txt_learn{
     background-color: #cfbd57d2;
+    position: relative;
+    bottom: 0;
+    left: 0;
     padding: 6%;
 }
 .txt_learn h2{
     padding-left: 10%;
 }
 .txt_address{
+    position: relative;
+    right: 0;
     text-align: right;
     background-color: #45464ab6;
 }
 /* Section css start*/
+
 /* Upper section*/
 .txt_first{
     padding:3% 3% 3% 10%;
@@ -70,8 +91,8 @@ span{
 .txt_first p{color: #707070;}
 .company_logo{
     background-color: #3bbddc;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     color: white;
 }
 .company_logo img{
@@ -115,6 +136,7 @@ span{
 }
 .txt_second img{
     width: 40%;
+    margin-right: -10%;
 }
 .txt_second h2{
     margin-right: 20%;
